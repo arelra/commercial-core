@@ -106,4 +106,4 @@ const buildAdsConfigWithConsent = async (
 		: disabledAds;
 };
 
-export { buildAdsConfigWithConsent };
+export { buildAdsConfigWithConsent, disabledAds };
