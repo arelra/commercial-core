@@ -1,0 +1,28 @@
+"use strict";
+/* istanbul ignore file -- there's no point check this for test coverage */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getPermutivePFPSegments = exports.getPermutiveSegments = exports.clearPermutiveSegments = exports.isAdBlockInUse = exports.adSizes = exports.sendCommercialMetrics = exports.EventTimer = exports.remarketing = exports.inizio = exports.twitter = exports.fbPixel = exports.permutive = exports.ias = void 0;
+var ias_1 = require("./third-party-tags/ias");
+Object.defineProperty(exports, "ias", { enumerable: true, get: function () { return ias_1.ias; } });
+var permutive_1 = require("./third-party-tags/permutive");
+Object.defineProperty(exports, "permutive", { enumerable: true, get: function () { return permutive_1.permutive; } });
+var facebook_pixel_1 = require("./third-party-tags/facebook-pixel");
+Object.defineProperty(exports, "fbPixel", { enumerable: true, get: function () { return facebook_pixel_1.fbPixel; } });
+var twitter_uwt_1 = require("./third-party-tags/twitter-uwt");
+Object.defineProperty(exports, "twitter", { enumerable: true, get: function () { return twitter_uwt_1.twitter; } });
+var inizio_1 = require("./third-party-tags/inizio");
+Object.defineProperty(exports, "inizio", { enumerable: true, get: function () { return inizio_1.inizio; } });
+var remarketing_1 = require("./third-party-tags/remarketing");
+Object.defineProperty(exports, "remarketing", { enumerable: true, get: function () { return remarketing_1.remarketing; } });
+var EventTimer_1 = require("./EventTimer");
+Object.defineProperty(exports, "EventTimer", { enumerable: true, get: function () { return EventTimer_1.EventTimer; } });
+var sendCommercialMetrics_1 = require("./sendCommercialMetrics");
+Object.defineProperty(exports, "sendCommercialMetrics", { enumerable: true, get: function () { return sendCommercialMetrics_1.sendCommercialMetrics; } });
+var ad_sizes_1 = require("./ad-sizes");
+Object.defineProperty(exports, "adSizes", { enumerable: true, get: function () { return ad_sizes_1.adSizes; } });
+var detectAdBlocker_1 = require("./detectAdBlocker");
+Object.defineProperty(exports, "isAdBlockInUse", { enumerable: true, get: function () { return detectAdBlocker_1.isAdBlockInUse; } });
+var permutive_2 = require("./permutive");
+Object.defineProperty(exports, "clearPermutiveSegments", { enumerable: true, get: function () { return permutive_2.clearPermutiveSegments; } });
+Object.defineProperty(exports, "getPermutiveSegments", { enumerable: true, get: function () { return permutive_2.getPermutiveSegments; } });
+Object.defineProperty(exports, "getPermutivePFPSegments", { enumerable: true, get: function () { return permutive_2.getPermutivePFPSegments; } });
